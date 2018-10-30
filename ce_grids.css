@@ -20,13 +20,13 @@ div.row {
     margin-left: auto;
     margin-right: auto;
 }
-
+    /* This allows the rows to be created for the pictures to be placed where they were easier. */
 div.row::after {
     display: table;
     clear: both;
     content: "";
 }
-
+/* Clears up the appearence */
 
 /* Grid Columns Styles */
 div[class^="column"] {
@@ -72,6 +72,7 @@ div.column60 {
 div.column80 {
    width: 80%; 
 }
+/* This is what placed the images everywhere the belonged basically, or if not a huge part of it by making their sizes. */
 /* Grid Spacing Styles */
 
 div.container, div.column, div[class^='column'], div.row, div.cell, div.cell a {
@@ -79,3 +80,4 @@ div.container, div.column, div[class^='column'], div.row, div.cell, div.cell a {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
+/* Finalized the size and appearance of the images */

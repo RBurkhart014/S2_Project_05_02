@@ -16,8 +16,8 @@
 html{
 	background-color: rgb(101,101,101);	
 }
-
-body{
+   /* Changed color of page all together. */
+body {
 	background-color:white;
 	font-family:Verdana, Geneva, Arial, sans-serif;
 	margin:20px auto;
@@ -25,31 +25,31 @@ body{
 	max-width:960px;
 	min-width:320px;
 	position: relative;
-	
 	}
+       /* This is the styles for most of the page all together  */
 img{
 	display:block;
 	width:100%;
 }
-
+        /* clearing up the images */
 nav a {
 	text-decoration: none;
 }
-
+/* No decorations for the text, default everything */
 
 /* Body Header Styles */
 body > header{
 	background-color:rgb(191, 68, 70);
 	height:40px;
 }
-
+/* Made the bar at the top have a red color */
 body>header>nav>ul>li {
 	display:block;
 	float:left;
 	margin-right:20px;
 	padding:10px 0px;
 }
-
+/* Made the pictures float */
 body>header>nav>ul>li a:visited, body>header>nav>ul>li a:link {
 	font-size:0.9em;
 	color: rgb(51, 51, 51);
@@ -57,7 +57,7 @@ body>header>nav>ul>li a:visited, body>header>nav>ul>li a:link {
 body>header>nav>ul>li a:hover, body>header>nav>ul>li a:active {
 	color:rgb(255, 211, 211);
 }
-
+/* Both of these tampered with the links and the size */
 /* DIV Container Styles */
 div#container{
 	padding-right:8px;
@@ -69,7 +69,7 @@ div.cell a {
 	padding-left:8px;
 	padding-top:8px;
 }
-
+/* Creates cells inside every row */
 
 /* Footer Styles */
 footer{
@@ -79,3 +79,4 @@ footer{
 	font-size:2vmin;
 	text-align:right;
 	}
+	/* Made the red text at the bottom */
